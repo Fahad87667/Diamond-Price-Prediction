@@ -1,11 +1,11 @@
 import os
 import sys
-from logger import logging
-from exception import CustomException
+from src.logger import logging
+from src.exception import CustomException
 import pandas as pd
-from components.data_transformation import DataTransformation
-from components.model_trainer import ModelTrainer
-from components.data_ingestion import DataIngestion
+from src.components.data_transformation import DataTransformation
+from src.components.model_trainer import ModelTrainer
+from src.components.data_ingestion import DataIngestion
 
 
 #Run Data ingestion,Data Transformation

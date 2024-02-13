@@ -1,9 +1,9 @@
 import sys
 import os
 import pandas as pd
-from logger import logging
-from exception import CustomException
-from utils import load_object
+from src.logger import logging
+from src.exception import CustomException
+from src.utils import load_object
 
 class PredictPipeline:
     def __init__(self):
