@@ -1,0 +1,14 @@
+*PROJECT LIFECYCLE*
+
+EDA --> 
+    Feature Engineering-> 
+            Model Training->
+                 Model Deployement-> 
+
+( Data Cleaning)-> (Data Ingestion)->(Data Transformation)->(Model Training)->(Model Evaluation)->(Deployement) 
+
+( prediction pipeline)--->INPUT--->(Trainig Pipeline)--->OUTPUT 
+
+(Data Ingestion)--->path configuration
+(Data Transformation)---> Handling missing values, feature scaling, categorical numerical feature etc
+(Model Training)---->
