@@ -8,7 +8,7 @@ from src.components.model_trainer import ModelTrainer
 from src.components.data_ingestion import DataIngestion
 
 
-#Run Data ingestion,Data Transformation
+#Run Data ingestion,Data Transformation, model Training
 if __name__=="__main__":
     obj= DataIngestion()
     train_data,test_data=obj.initiate_data_ingestion()
