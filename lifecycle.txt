@@ -11,4 +11,4 @@ EDA -->
 
 (Data Ingestion)--->path configuration
 (Data Transformation)---> Handling missing values, feature scaling, categorical numerical feature etc
-(Model Training)---->
+(Model Training)----> train model for prediction
