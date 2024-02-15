@@ -8,7 +8,7 @@ app = application
 
 @app.route('/')
 # def home_page():
-#     return render_template('index.html')
+#  return render_template('index.html')
 
 @app.route('/', methods=['GET','POST'])
 def homepage():
@@ -19,7 +19,6 @@ def homepage():
             carat = float(request.form.get('carat')),
             depth = float(request.form.get('depth')),
             table = float(request.form.get('table')),
-
             cut = request.form.get('cut'),
             color = request.form.get('color'),
             clarity = request.form.get('clarity')
