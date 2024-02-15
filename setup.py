@@ -1,7 +1,8 @@
 from setuptools import find_packages,setup
 from typing import List
 
-hyphen_e_dot = '-e .'
+hyphen_e = '-e .'
+
 
 def get_requirements(file_path:str)->List[str]:
     requirements=[]
@@ -9,13 +10,13 @@ def get_requirements(file_path:str)->List[str]:
         requirements=file_obj.readlines()
         requirements=[req.replace("\nf","") for req in requirements]
         
-        if hyphen_e_dot in requirements:
-            requirements.remove(hyphen_e_dot)
+        if hyphen_e in requirements:
+            requirements.remove(hyphen_e)
             
     return requirements
 
 setup(
-    name='Regressor_Project',
+    name='Regression_Project',
     version='0.0.1',
     author='Fahad',
     author_email='ftkhan61814@gmail.com',
